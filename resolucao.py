@@ -424,7 +424,7 @@ def teste_output_christophe():
     
     lista_instancias = instancias[:numero_instancias]
     lista_modelos = [jsp_disjuntivo_minla_favorito, jsp_disjuntivo_manne]
-    df = execucao_modelos(lista_instancias[7:]
+    df = execucao_modelos(lista_instancias[9:]
                           ,lista_modelos
                           ,prefixo_arq="t_sol"
                           ,tempo_max=7200

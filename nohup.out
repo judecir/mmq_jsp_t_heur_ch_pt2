@@ -186,3 +186,191 @@ Traceback (most recent call last):
   File "/home/judecir/Documentos/mmq_jsp_t_heur_ch_pt2/resolucao.py", line 23, in escrever_solucao
     if(s.has_objective()):
 AttributeError: 'NoneType' object has no attribute 'has_objective'
+ta01-1242.txt
+[0, 1242] 2
+ta02-1249.txt
+[0, 1249] 3
+ta03-1233.txt
+[0, 1233] 4
+ta04-1196.txt
+[0, 1196] 5
+ta05-1237.txt
+[0, 1237] 6
+ta06-1252.txt
+[0, 1252] 7
+ta07-1228.txt
+[0, 1228] 8
+ta08-1221.txt
+[0, 1221] 9
+ta09-1299.txt
+[0, 1299] 10
+ta10-1265.txt
+[0, 1265] 11
+ta11-1428.txt
+[0, 1428] 12
+ta12-1414.txt
+[0, 1414] 13
+ta13-1395.txt
+[0, 1395] 14
+ta14-1356.txt
+[0, 1356] 15
+ta15-1410.txt
+[0, 1410] 16
+ta16-1408.txt
+[0, 1408] 17
+ta17-1496.txt
+[0, 1496] 18
+ta18-1463.txt
+[0, 1463] 19
+ta19-1399.txt
+[0, 1399] 20
+ta20-1394.txt
+[0, 1394] 21
+ta21-1704.txt
+[0, 1704] 22
+ta22-2050.txt
+[0, 2050] 23
+ta23-1613.txt
+[0, 1613] 24
+ta24-1700.txt
+[0, 1700] 25
+ta25-1665.txt
+[0, 1665] 26
+ta26-1714.txt
+[0, 1714] 27
+ta27-1765.txt
+[0, 1765] 28
+ta28-1668.txt
+[0, 1668] 29
+ta29-1665.txt
+[0, 1665] 30
+ta30-1659.txt
+[0, 1659] 31
+Criando modelo:
+Modelo t_sol_ID010M015J015_ZintTrue_minla_fav_ub0 criado! com UB do cmax =  0
+Resolvendo...
+Modelo resolvido!
+minla_fav : 
+JobSolveStatus.OPTIMAL_SOLUTION
+Cmax= 1181.0
+Detalhes status  = integer optimal solution
+time    = 33.4685 s.
+problem = MILP
+gap     = 0%
+
+Criando modelo:
+Modelo t_sol_ID010M015J015_ZintTrue_minla_fav_ub1221 criado! com UB do cmax =  1221
+Resolvendo...
+Modelo resolvido!
+minla_fav : 
+JobSolveStatus.OPTIMAL_SOLUTION
+Cmax= 1181.0
+Detalhes status  = integer optimal, tolerance
+time    = 31.033 s.
+problem = MILP
+gap     = 0.00162835%
+
+==================
+
+Criando modelo:
+Modelo t_sol_ID010M015J015_ZintTrue_manne_ub0 criado! com UB do cmax =  0
+Resolvendo...
+Modelo resolvido!
+manne : 
+JobSolveStatus.OPTIMAL_SOLUTION
+Cmax= 1181.0
+Detalhes status  = integer optimal solution
+time    = 61.0264 s.
+problem = MILP
+gap     = 0%
+
+Criando modelo:
+Modelo t_sol_ID010M015J015_ZintTrue_manne_ub1221 criado! com UB do cmax =  1221
+Resolvendo...
+Modelo resolvido!
+manne : 
+JobSolveStatus.OPTIMAL_SOLUTION
+Cmax= 1181.0
+Detalhes status  = integer optimal, tolerance
+time    = 30.8176 s.
+problem = MILP
+gap     = 0.00928683%
+
+==================
+
+Criando modelo:
+Modelo t_sol_ID010M015J015_ZintFalse_minla_fav_ub0 criado! com UB do cmax =  0
+Resolvendo...
+Modelo resolvido!
+minla_fav : 
+JobSolveStatus.OPTIMAL_SOLUTION
+Cmax= 963.0
+Detalhes status  = optimal
+time    = 0.016711 s.
+problem = LP
+
+Criando modelo:
+Modelo t_sol_ID010M015J015_ZintFalse_minla_fav_ub1221 criado! com UB do cmax =  1221
+Resolvendo...
+Modelo resolvido!
+minla_fav : 
+JobSolveStatus.OPTIMAL_SOLUTION
+Cmax= 963.0
+Detalhes status  = optimal
+time    = 0.0166571 s.
+problem = LP
+
+==================
+
+Criando modelo:
+Modelo t_sol_ID010M015J015_ZintFalse_manne_ub0 criado! com UB do cmax =  0
+Resolvendo...
+Modelo resolvido!
+manne : 
+JobSolveStatus.OPTIMAL_SOLUTION
+Cmax= 963.0
+Detalhes status  = optimal
+time    = 0.0161519 s.
+problem = LP
+
+Criando modelo:
+Modelo t_sol_ID010M015J015_ZintFalse_manne_ub1221 criado! com UB do cmax =  1221
+Resolvendo...
+Modelo resolvido!
+manne : 
+JobSolveStatus.OPTIMAL_SOLUTION
+Cmax= 963.0
+Detalhes status  = optimal
+time    = 0.016433 s.
+problem = LP
+
+==================
+
+Criando modelo:
+Modelo t_sol_ID011M015J015_ZintTrue_minla_fav_ub0 criado! com UB do cmax =  0
+Resolvendo...
+Modelo resolvido!
+minla_fav : 
+JobSolveStatus.FEASIBLE_SOLUTION
+Cmax= 1293.0
+Detalhes status  = time limit exceeded
+time    = 7200.01 s.
+problem = MILP
+gap     = 7.42459%
+
+Criando modelo:
+Modelo t_sol_ID011M015J015_ZintTrue_minla_fav_ub1299 criado! com UB do cmax =  1299
+Resolvendo...
+Modelo resolvido!
+minla_fav : 
+JobSolveStatus.UNKNOWN
+Traceback (most recent call last):
+  File "main.py", line 12, in <module>
+    teste_output_christophe()
+  File "/home/judecir/Documentos/mmq_jsp_t_heur_ch_pt2/resolucao.py", line 431, in teste_output_christophe
+    ,fl_primeira_sol=False)
+  File "/home/judecir/Documentos/mmq_jsp_t_heur_ch_pt2/resolucao.py", line 293, in execucao_modelos
+    escrever_solucao(sol)
+  File "/home/judecir/Documentos/mmq_jsp_t_heur_ch_pt2/resolucao.py", line 23, in escrever_solucao
+    if(s.has_objective()):
+AttributeError: 'NoneType' object has no attribute 'has_objective'
